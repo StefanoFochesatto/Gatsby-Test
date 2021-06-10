@@ -1,12 +1,18 @@
-import * as React from 'react';
+// import react
+import * as React from 'react'
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
+
+// define react component
 const Homepage = () => {
-  return (
-    <div>
-      <h1>Hello Stefano!</h1>
-      <p>How are you today?</p>
-  </div>
-  );
+  return(
+    <Layout pageHeading='Home' pageTitle='HomePage'>
+      <p>This is the homepage, children component</p>
+    </Layout>
+    
+  )
 };
 
+// export hompage comonent
 export default Homepage;
