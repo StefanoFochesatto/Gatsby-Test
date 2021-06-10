@@ -6,6 +6,7 @@ import {
     navLinks, 
     navLinkItem, 
     navLinkText } from './layout.module.css'
+import { StaticImage } from 'gatsby-plugin-image'
 
 
 
